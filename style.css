@@ -25,6 +25,12 @@ body {
   height: 100vh;
 }
 
+.xmas-background {
+  background-image: url('./fire-and-ice-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
 .container {
   background: var(--snow);
   flex-direction: column;

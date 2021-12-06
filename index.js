@@ -9,10 +9,12 @@ function christmassifyName() {
   if (greeting.className === 'christmassified') {
     greeting.className = ''
     christmassifierBtn.textContent = 'Christmassify'
+    document.body.className = ''
     xmasMusic.pause()
   } else {
     greeting.className = 'christmassified'
     christmassifierBtn.textContent = 'De-christmassify'
+    document.body.className = 'xmas-background'
     xmasMusic.play()
   }
 }
