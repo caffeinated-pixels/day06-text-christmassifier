@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-  background: var(--snow);
+  background: hsla(206, 30%, 95%, 0.75);
   flex-direction: column;
   border-radius: 10px;
   padding: 3em;
