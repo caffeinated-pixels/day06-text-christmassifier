@@ -3,7 +3,13 @@ const christmassifierBtn = document.getElementById('christmassifierBtn')
 christmassifierBtn.addEventListener('click', christmassifyName)
 
 function christmassifyName() {
-  greeting.className = 'christmassified'
+  if (greeting.className === 'christmassified') {
+    greeting.className = ''
+    christmassifierBtn.textContent = 'Christmassify'
+  } else {
+    greeting.className = 'christmassified'
+    christmassifierBtn.textContent = 'De-christmassify'
+  }
 }
 
 // Task:
